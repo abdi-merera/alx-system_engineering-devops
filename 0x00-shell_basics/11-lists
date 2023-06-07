@@ -1,3 +1,2 @@
 #!/bin/bash
-(ls -la) | { cd ..; echo "Files in parent directory:"; ls -la; } | { cd /boot; echo "Files in /boot directory:"; ls -la; }
-
+find . .. /boot -type f -print0 | xargs -0 ls -l
