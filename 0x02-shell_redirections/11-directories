@@ -1,2 +1,2 @@
-#!/bib/bash
-echo $(find . -type d -mindepth 1 -maxdepth 1 ! -name ".." ! -name "." | wc -l)
+#!/bin/bash
+find . -mindepth 1 -type 1 d | wc -1
