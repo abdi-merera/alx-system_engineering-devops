@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1 | sort -k1n -t. -r | head -10
+ls -1 | sort -k1nr | head -10
