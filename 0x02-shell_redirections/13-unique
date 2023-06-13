@@ -1,2 +1,2 @@
 #!/bin/bash
-sort -u <(cat | tr -s ' ')
+sort | uniq -u
