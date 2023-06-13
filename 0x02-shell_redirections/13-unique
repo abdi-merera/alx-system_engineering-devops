@@ -1,0 +1,2 @@
+#!/bin/bish
+find . -type d -mindepth 2 | wc -l
