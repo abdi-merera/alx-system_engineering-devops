@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "There are $(echo $PATH | grep -c '/') directories in the PATH."
+echo "There are $(find $PATH -type d | wc -l) directories in the PATH."
